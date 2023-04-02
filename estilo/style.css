@@ -38,17 +38,12 @@ header{
     padding: 45px 78px;
     background-color: #a6026c;
 }
-
+.p20{padding:20px;}
+.p10{padding: 10px;}
+.m20{margin: 20px;}
 /*INDEX*/
-.home{
-    display: grid;
-    grid-template-columns: 45% 45% 45% 45%;
-    grid-template-rows: auto auto auto auto auto auto auto;
-}
 /*----cards-----*/
-.p10{
-    padding: 10px;
-}
+
 .verMas{
     background-color: #fc3903;
     border: #fc3903;
@@ -88,8 +83,9 @@ header{
 .pCards{
     border: 10px double #fc3903;
     background: rgb(255, 223, 168);
-    font-size: 18.8px;
+    font-size: 22px;
     color: #fc3903;
+    text-align: center;
 }
 /*-----footer------*/
 .btnFooter{
@@ -104,23 +100,61 @@ footer{
     "titulo titulo titulo"
     "ig tw ayuda"
     "face yt boton";
-    grid-template-columns: 25% 25% 50%;
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: auto auto auto;
 }
 .redes{grid-area: titulo;}
 .ig{grid-area: ig;}
 .tw{grid-area: tw;}
-.problema{grid-area: ayuda;}
+.problema{grid-area: ayuda;text-align: center;}
 .face{grid-area: face;}
 .yt{grid-area: yt;}
 .btnFooter{grid-area: boton;}
 
-.moverIzq{
+/*-----info general------*/
+.h2izq{
+    display: inline-block;
+    background-color: #fc3903;
+    padding-right: 200px;
+    border: 10px solid #fc3903;
+    border-end-end-radius: 30px ;
+    border-top-right-radius: 30px ;
     position: relative;
-    right: 580px;
+    top: 22px;
 }
-.moverDer{
+.pMain{
+    padding: 19px;
+    border: 2px solid #fc3903;
+}
+.h2der{
+    display: inline-block;
+    background-color: #fc3903;
+    padding-left: 200px;
+    border: 10px solid #fc3903;
+    border-top-left-radius: 30px;
+    border-end-start-radius: 30px;
     position: relative;
-    left: 128px;
-    padding: 3px;
+    top: 22px;
+    left: 835px;
 }
+main{
+    display: grid;
+    grid-template-areas: 
+    "somos somos"
+    "trabaj trabaj"
+    "video perroTorta"
+    "lugar lugar"
+    "flyer flyer"
+    "h4 img";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+.somos{grid-area: somos;}
+.trabaj{grid-area: trabaj;}
+.videoInfo{grid-area: video;     margin: 20px 90px;}
+.perroTorta{grid-area: perroTorta;    margin: 20px 132px;}
+.lugar{grid-area: lugar;}
+.flyerMain{grid-area: flyer;}
+.tienda{grid-area: h4;}
+.perroCafe{grid-area: img;}
+
