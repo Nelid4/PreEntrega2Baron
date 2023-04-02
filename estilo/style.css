@@ -1,7 +1,7 @@
-/*GENERAL*/
+/*--------------GENERAL---------------*/
 body{
     font-family: 'Manrope', sans-serif;
-    background-image: url(./img/fondoo.jpg);
+    background-image: url(/img/fondoo.jpg);
 }
 
 a{text-decoration: none; color: black;}
@@ -41,7 +41,9 @@ header{
 .p20{padding:20px;}
 .p10{padding: 10px;}
 .m20{margin: 20px;}
-/*INDEX*/
+
+
+/*----------------INDEX---------------*/
 /*----cards-----*/
 
 .verMas{
@@ -80,6 +82,7 @@ header{
 .imgCard2{position: relative; left: 21px;}
 .imgCard3{position: relative; left: 12px;}
 .imgCard4{position: relative; left: 8px; margin: 17px 1px;}
+
 .pCards{
     border: 10px double #fc3903;
     background: rgb(255, 223, 168);
@@ -158,3 +161,33 @@ main{
 .tienda{grid-area: h4;}
 .perroCafe{grid-area: img;}
 
+
+/*--------------------PASTELES------------------*/
+/*--cards horizontaes---*/
+.botonAgr1{
+    background-color: #ffab03;
+    border: #ffab03;
+    padding: 26px;
+    font-size: 20px;
+    border-radius: 150px;
+    text-decoration: none;
+    text-align: center;
+}
+.cardProd1{
+    display: grid;
+    grid-template-areas: "torta1 texto1 boton1";
+    grid-template-columns: 30% 45% 25%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.torta1{grid-area: torta1;}
+.p1{grid-area: texto1;}
+.botonAgr1{grid-area: boton1;}
+
+.rosaC{border: 5px solid #d1024e;}
+.naranjaC{border: 5px solid #fc3903;}
+.amarilloC{border: 5px solid #fc7f03;}
+.violetaC{border: 5px solid #a6026c;}
+.fz20{font-size: 22px;}
