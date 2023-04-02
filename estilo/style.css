@@ -1,0 +1,44 @@
+/*GENERAL*/
+body{
+    font-family: 'Manrope', sans-serif;
+    background-image: url(/img/fondoo.jpg);
+}
+
+a{text-decoration: none;}
+body{ margin: 0%;}
+li{list-style-type: none;}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.amarillo{
+    padding: 45px 42px;
+    background-color: #ffab03;
+}
+.naranja{
+    padding: 45px 108px;
+    background-color: #fc7f03;
+}
+.rojo{
+    padding: 16px 21px;
+    background-color: #fc3903;
+    border-bottom-left-radius: 63px;
+    border-bottom-right-radius: 63px;
+}
+.rosa{
+    padding: 45px 71px;
+    background-color: #d1024e;
+}
+.violeta{
+    padding: 45px 78px;
+    background-color: #a6026c;
+}
+.home{
+    display: grid;
+    grid-template-columns: 45% 45% 45% 45%;
+    grid-template-rows: auto auto auto auto auto auto auto;
+}
+/*INDEX*/
