@@ -27,6 +27,8 @@ header{
     background-color: #fc3903;
     border-bottom-left-radius: 63px;
     border-bottom-right-radius: 63px;
+    position: relative;
+    bottom: 1px;
 }
 .rosa{
     padding: 45px 71px;
