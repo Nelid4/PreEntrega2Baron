@@ -191,3 +191,28 @@ main{
 .amarilloC{border: 5px solid #fc7f03;}
 .violetaC{border: 5px solid #a6026c;}
 .fz20{font-size: 22px;}
+
+/*-----------------PERRO-----------------*/
+/*---card perro----*/
+.botonPerro{
+    background-color: #d1024e;
+    border: #d1024e;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 22px;
+    color: white;
+}
+.bNaranja{background-color: #fc7f03;}
+.bVioleta{background-color: #a6026c;}
+.bRojo{background-color: #fc3903;}
+
+.navP{
+    border: 7px dotted #d1024e;
+    padding: 17px;
+    color: #d1024e;
+}
+aside{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
