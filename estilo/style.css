@@ -1,11 +1,11 @@
 /*--------------GENERAL---------------*/
 body{
     font-family: 'Manrope', sans-serif;
-    background-image: url(./img/fondoo.jpg);
+    background-image: url(../img/fondoo.jpg);
+    margin: 0%;
 }
 
 a{text-decoration: none; color: black;}
-body{ margin: 0%;}
 li{list-style-type: none;}
 
 header{
